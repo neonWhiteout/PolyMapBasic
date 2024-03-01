@@ -1,0 +1,6 @@
+name = "PolyMapBasic"
+
+[deps]
+Catlab = "134e5e36-593f-5add-ad60-77f754baafbe"
+GraphViz = "f526b714-d49f-11e8-06ff-31ed36ee7ee0"
+Poly = "e09f2dfe-59e6-4dd4-bdd5-ac2e3c02424c"
