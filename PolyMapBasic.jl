@@ -187,7 +187,7 @@ Composition operator.  Relies on + and * defined in Poly.jl.
     sum = FinPoly(Vector{Int}())
     for p in positions(A)
         prod = FinPoly([0])
-        for j in directions(A, p)
+        for j in incident(A, p, :pos)
             prod = prod * B
         end
         sum = sum + prod
